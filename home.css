@@ -1,0 +1,213 @@
+    .bg-1-icon {
+        position: absolute;
+        top: 36px;
+        left: 40px;
+        border-radius: 48.03px;
+        width: 1500px;
+        height: 952.9px;
+        object-fit: cover;
+    }
+    .desktop-1-child,
+    .desktop-1-item {
+        background-color: var(--color-gray);
+    }
+    .desktop-1-child {
+        position: absolute;
+        top: 626px;
+        left: 22px;
+        border-radius: var(--br-31xl);
+        width: 477px;
+        height: 171px;
+    }
+    .desktop-1-item {
+        top: 753px;
+        left: 37px;
+        width: 636px;
+        height: 136px;
+    }
+    .desktop-1-inner,
+    .desktop-1-item,
+    .rectangle-div {
+        position: absolute;
+        border-radius: var(--br-31xl);
+    }
+    .desktop-1-inner {
+        top: 844px;
+        left: 25px;
+        background-color: var(--color-gray);
+        width: 720px;
+        height: 180px;
+    }
+    .rectangle-div {
+        top: 764px;
+        left: 559px;
+        background-color: #9175dd;
+        border: 1px solid var(--color-gray);
+        box-sizing: border-box;
+        width: 62px;
+        height: 26px;
+        transform: rotate(-180deg);
+        transform-origin: 0 0;
+    }
+    .un-update {
+        position: absolute;
+        top: 93.4px;
+        left: calc(50% - 128px);
+        font-size: 55.6px;
+        font-family: var(--font-italiana);
+        white-space: pre-wrap;
+        display: inline-block;
+        width: 303px;
+        height: 55.6px;
+    }
+    .hci-2-photoroom-1 {
+        position: absolute;
+        top: 86.5px;
+        left: 723px;
+        width: 26.4px;
+        height: 70px;
+        object-fit: cover;
+    }
+    .desktop-1-child1 {
+        position: absolute;
+        top: 84px;
+        left: 1350px;
+        border-radius: var(--br-13xl);
+        background-color: var(--color-white);
+        width: 131px;
+        height: 69px;
+    }
+    .admin {
+        position: absolute;
+        top: 107px;
+        right: 125px;
+        color: var(--color-gray);
+        display: inline-block;
+        width: 75px;
+        height: 23px;
+        font-size: 20px;
+    }
+    .desktop-1-child2 {
+        position: absolute;
+        top: 84px;
+        left: 98px;
+        border-radius: var(--br-13xl);
+        background-color: var(--color-white);
+        width: 431px;
+        height: 69.1px;
+    }
+    .club-events,
+    .internship,
+    .session {
+        position: absolute;
+        top: 108px;
+        left: 366px;
+        color: var(--color-gray);
+        display: inline-block;
+        width: 130px;
+        height: 23px;
+        font-size: 20px;
+    }
+    .internship,
+    .session {
+        left: 231px;
+        width: 110px;
+        font-size: 20px;
+    }
+    .session {
+        left: 110px;
+        width: 90px;
+        font-size: 20px;
+        left: 125px;
+    }
+    .welcome {
+        margin: 0;
+    }
+    .uniupdates,
+    .welcome-to {
+        position: absolute;
+        left: 67px;
+        display: inline-block;
+    }
+    .welcome-to {
+        top: 663px;
+        font-size: 70px;
+        font-weight: 600;
+        width: 402px;
+        height: 124px;
+    }
+    .uniupdates {
+        top: 802px;
+        font-size: 90px;
+        width: 564px;
+        height: 73px;
+    }
+    .span {
+        color: var(--color-black);
+    }
+    .it-department {
+        font-weight: 600;
+        color: #407bff;
+    }
+    .b {
+        font-family: var(--font-josefin-slab);
+    }
+    .you-will-be-container {
+        position: absolute;
+        top: 907px;
+        left: 67px;
+        font-size: 30px;
+        display: inline-block;
+        width: 653px;
+        height: 60px;
+    }
+    .desktop-1 {
+        width: 100%;
+        position: relative;
+        background-color: var(--color-gray);
+        height: 1024px;
+        overflow: hidden;
+        text-align: left;
+        font-size: var(--font-size-6xl);
+        color: var(--color-white);
+        font-family: var(--font-josefin-slab);
+    }
+
+    /* Home.css */
+
+/* Styles for session, internship, and club events buttons */
+button {
+    width: 150px;
+    height: 23px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  
+  /* Hover effect */
+  button:hover {
+    /* background-color: #bfaef4; */
+    width: 131px;
+    height: 69px;
+    border-radius: 32px;
+    margin-top: -24px;
+    margin-right: -28px;
+  }
+  .rectangle-parent12 {
+    align-self: stretch;
+    background-color: var(--color-white);
+    flex-direction: row;
+    justify-content: center;
+    padding: var(--padding-26xl) var(--padding-xl) var(--padding-20xl);
+    max-width: 100%;
+    font-size: var(--font-size-11xl);
+    color: var(--color-black);
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: var(--font-josefin-slab);
+  }
+  
+    
