@@ -10,8 +10,8 @@ jobs:
       name: Checkout repository 
       uses: actions/checkout@v3
       name: Set environment variable
-      run: echo "SERVICE_URL-https://example.com" >> SGITHUB_ENV
+      run: echo "SERVICE_URL=https://github.com/AKSHATA-MADANE7/Ib_mjob/settings/environments/9476703868/edit" >> $GITHUB_ENV
       name: Print secret and environment variable 
       run:
         echo "API KEY is $[( secrets.API_KEY }]" 
-        echo "Service URL is SSERVICE_URL"
+        echo "Service URL is $SERVICE_URL"
